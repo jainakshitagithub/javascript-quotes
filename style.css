@@ -1,0 +1,55 @@
+*{
+    margin: 0;padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+.centered
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.allcontain{
+    background-color: darkslateblue;
+    height:100vh;
+    width:100vw;
+ 
+}
+
+.container{
+    background-color: dodgerblue;
+    height:70vh;
+    width:50vw;
+   
+}
+.box{
+    background-color:lightblue;
+    height:60vh;
+    width:40vw;
+
+}
+#text{
+    font-family: 'Sacramento', sans-serif;
+    font-size: 20px;
+    display:flex;
+    justify-content: end;
+    padding:5vh;
+  
+}
+#author{
+    position: absolute;
+    font-family: 'Anton', sans-serif;
+    font-size: 1rem;
+    bottom: 35vh;
+    left: 55vw;
+}
+#clickme{
+    position:absolute;
+    font-size: large;
+    width: 40vw;
+    position: absolute;
+    height: 8vh;
+    background-color: skyblue;
+    top: 77vh;
+    font-weight: 700;
+}
